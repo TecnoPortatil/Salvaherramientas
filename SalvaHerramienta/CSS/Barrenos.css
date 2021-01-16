@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+}
+body
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+header
+{
+    background-color: #000;
+    border-bottom: 3px solid #000;
+}
+header .row
+{
+    padding:0.5%;
+}
+.nav-2
+{
+    margin-left: 0;
+}
+.nav-2 a:hover
+{
+    font-size: 14.5pt;
+}
+.nav-2 #offer
+{
+    letter-spacing: 3px;
+    border-radius: 50px;
+    background-color: red;
+}
+.nav-2 #offer:hover
+{
+    font-size: 15pt;
+    background-color: rgb(255, 23, 23);
+}
+.nav-2 ul
+{
+    width: 100%;
+    padding: 1% 0 1% 0;
+    list-style: none;
+    display: block;
+} 
+.nav-2 ul > li
+{
+    float: left;
+}
+.nav-2 ul li a
+{
+    display:block;
+    padding:8px 15px 8px 15px;
+    justify-content: space-around;
+    text-decoration: none;
+    color:#fff;
+}
+.nav-2 ul li a i
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.nav-3 img
+{
+    line-height: 15pt;
+    width:150px;
+    height: 125px;
+    padding: 0.5%;
+}
+.nav-3 .marcas
+{
+    line-height: 15pt;
+    width: 100px;
+    height: 70px;
+}
+.nav-3 .primera-lista > li
+{
+    display: inline-block;
+}
+.nav-3 .links-prime
+{
+    margin: 0;
+    text-align: left;
+    padding:15px 25px 15px 25px; 
+    color: #fff;
+    position: relative; 
+    display: block;
+}
+.nav-3 li:hover > .links-prime
+{
+    text-decoration: none;
+    border-bottom: 3px solid #f9e814;
+}
+.nav-3 .segunda-lista, .nav-3 .tercera-lista
+{
+    position: absolute;
+    display: none;
+    z-index: 1000;
+}
+.nav-3 .primera-lista > li:hover .segunda-lista, .nav-3 .segunda-lista > li:hover > .tercera-lista
+{
+    display: block;
+}
+.nav-3 .tercera-lista
+{
+    top: 0;
+    right: 0;
+    transform: translate(100%,0);
+}
+.nav-3 .segunda-lista, .nav-3 .tercera-lista
+{
+    background-color: #f9e814;
+    padding:1.5%;
+    border-radius: 10px;
+    line-height: 30pt;
+    font-weight: bold;
+}
+.nav-3 .segunda-lista li
+{
+    position: relative;
+}
+.nav-3 .segunda-lista li a, .nav-3 .tecera-lista li a
+{
+    color: #000;
+}
+.nav-3 .segunda-lista li a:hover, .nav-3 .tecera-lista li a:hover
+{
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+    font-size: 14.5pt;
+}
+.nav-3 li i
+{
+    padding-left: 10px;
+}
+/*COMIENZA EL CUERPO*/
+.container
+{
+    padding:2%;
+}
+.container img
+{
+    width:50%;
+}
+.container .info
+{
+    border:1px solid gray;
+}
+/*COMIENZA EL FOOTER*/
+footer
+{
+    overflow: hidden;
+    background-color: #000;
+    margin-top: auto;
+}
+footer .row
+{
+    padding:0.5%;
+}
+footer img
+{
+    line-height: 15pt;
+    width:150px;
+    height: 125px;
+    padding: 0.5%;
+}
+footer a, footer h5
+{
+    color:#fff;
+    text-decoration: none;
+}
+footer a:hover
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14.5pt;
+    border-bottom: 3px solid #f9e814;
+}
+footer a i
+{
+    padding-right: 5px;
+}
